@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="movies">
+    <xs:complexType>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="movie" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="title">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\w.*"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="year">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\d\d\d\d"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="genre" type="genreType"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="actor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\w.*"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dateofbirth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="\d\d-\d\d-\d\d\d\d"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="genreType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="action" />
+      <xs:enumeration value="adventure" />
+      <xs:enumeration value="comedy" />
+      <xs:enumeration value="drama" />
+      <xs:enumeration value="fantasy" />
+      <xs:enumeration value="horror" />
+      <xs:enumeration value="mystery" />
+      <xs:enumeration value="thriller" />
+      <xs:enumeration value="western" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

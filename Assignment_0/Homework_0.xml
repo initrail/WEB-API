@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies
+  xmlns="http://tempuri.org/XMLSchema.xsd"
+  xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <movie>
+      <title>The Dark Knight Rises</title>
+      <year>2012</year>
+      <genre>action</genre>
+  </movie>
+  <movie>
+      <title>Menace II Society</title>
+      <year>1993</year>
+      <genre>drama</genre>
+  </movie>
+  <actor>
+    <name>Jada Pinkett</name>
+    <dateofbirth>09-18-1971</dateofbirth>
+  </actor>
+  <actor>
+      <name>Christian Bale</name>
+      <dateofbirth>01-30-1974</dateofbirth>
+  </actor>
+</movies>
