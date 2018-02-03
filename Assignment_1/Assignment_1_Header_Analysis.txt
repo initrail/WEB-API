@@ -1,0 +1,20 @@
+Request Header Analysis:
+GET /books/v1/volumes/ HTTP/1.1						//The request type is GET, the directory to get the book and the http protocol
+Host: www.googleapis.com						//The name of the host which represents an ip address
+Cache-Control: no-cache							//Specifies how caching is handled for a request in this case no cache is desired
+Postman-Token: 8c7e3205-9d19-48a1-337d-3e4deed44d7d
+Response Header Analysis:
+Alt-Svc ?hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+Cache-Control ?private, max-age=0, must-revalidate, no-transform	//Specifies how caching is handled for a response, the response is meant for one user, it expires instantaneously, stale responses should not be used, no alterations are allowed to the content-type
+Content-Encoding ?gzip							//How the response information is compressed
+Content-Type ?application/json; charset=UTF-8				//Content-Type determines what format the server sends the requested information in
+Date ?Sat, 03 Feb 2018 20:28:36 GMT					//The time of the response
+ETag ?"f6QLsd8inUgRKJVNBqJ8xHnPb0w/nuUKf_qAnMSxFKqLk-qRbWaMKnU"		//Identifies the version of the content of a response
+Expires ?Sat, 03 Feb 2018 20:28:36 GMT					//When the response is considered no longer valid
+Server ?GSE								//What kind of server is being used ie Apache/Tomcat, GlassFish etc
+Transfer-Encoding ?chunked						//The way in which the server sends the data, in this case it is chunked
+Vary ?Origin								//Whether a cached response can be utilized or not, in this case no and the response must originate from the server
+Vary ?X-Origin
+X-Content-Type-Options ?nosniff
+X-Frame-Options ?SAMEORIGIN
+X-XSS-Protection ?1; mode=block
