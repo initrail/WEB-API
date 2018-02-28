@@ -1,0 +1,27 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "Assignment 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/initrail/WEB-API.git"
+  },
+  "author": "Daniel Kalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/initrail/WEB-API/issues"
+  },
+  "homepage": "https://github.com/initrail/WEB-API#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0"
+  }
+}
