@@ -1,18 +1,12 @@
 {
 	"info": {
 		"name": "Assignment_2",
-<<<<<<< HEAD
 		"_postman_id": "31bdd54b-31f0-d157-3f4e-bf496b5dfd21",
-=======
-		"_postman_id": "c372d2bd-d268-21d4-e9b6-ae8b3a4e916a",
-		"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "Root Failure",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -27,8 +21,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -39,18 +31,12 @@
 						"localhost"
 					],
 					"port": "1010"
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Get Success",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -65,8 +51,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "GET",
 				"header": [
@@ -87,10 +71,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -104,18 +84,12 @@
 					"path": [
 						"get"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Get Success With Param",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -130,8 +104,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "GET",
 				"header": [
@@ -152,10 +124,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -176,18 +144,12 @@
 							"equals": true
 						}
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Get Failure",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -202,8 +164,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "POST",
 				"header": [
@@ -224,10 +184,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -241,18 +197,12 @@
 					"path": [
 						"get"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Post Success",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -267,8 +217,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "POST",
 				"header": [
@@ -289,10 +237,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -306,18 +250,12 @@
 					"path": [
 						"post"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Post Success With Param",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -332,8 +270,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "POST",
 				"header": [
@@ -354,10 +290,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -378,18 +310,12 @@
 							"equals": true
 						}
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Post Failure",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -404,8 +330,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -426,10 +350,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -443,18 +363,12 @@
 					"path": [
 						"post"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Put Success",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -469,8 +383,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -491,10 +403,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -508,18 +416,12 @@
 					"path": [
 						"put"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Put Success With Param",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -534,8 +436,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -556,10 +456,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -580,18 +476,12 @@
 							"equals": true
 						}
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Put Failure",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -606,8 +496,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -628,10 +516,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -645,12 +529,7 @@
 					"path": [
 						"put"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
@@ -691,10 +570,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -708,18 +583,12 @@
 					"path": [
 						"delete"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Delete Authorized Success",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -734,8 +603,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -771,10 +638,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -788,18 +651,12 @@
 					"path": [
 						"delete"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Delete Authorized Success With Param",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -814,8 +671,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -851,10 +706,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -875,18 +726,12 @@
 							"equals": true
 						}
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		},
 		{
 			"name": "Delete Authorized Failure",
-<<<<<<< HEAD
 			"event": [
 				{
 					"listen": "test",
@@ -901,8 +746,6 @@
 					}
 				}
 			],
-=======
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -938,10 +781,6 @@
 						{
 							"key": "",
 							"value": "",
-<<<<<<< HEAD
-=======
-							"description": "",
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 							"type": "text"
 						}
 					]
@@ -955,18 +794,9 @@
 					"path": [
 						"delete"
 					]
-<<<<<<< HEAD
 				}
-=======
-				},
-				"description": ""
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
 			},
 			"response": []
 		}
 	]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> da4c4a437b5500f2f00793b69df2eb4c981a5eb6
