@@ -74,4 +74,4 @@ router.route('/delete')
     })
 
 app.use('/', router)
-app.listen(1010)
+app.listen(process.env.PORT || 1010)
