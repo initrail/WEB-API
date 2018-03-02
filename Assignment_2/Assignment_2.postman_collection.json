@@ -26,11 +26,13 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "localhost:1010",
+					"raw": "https://assignment-two-dan.herokuapp.com",
+					"protocol": "https",
 					"host": [
-						"localhost"
-					],
-					"port": "1010"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
+					]
 				}
 			},
 			"response": []
@@ -76,11 +78,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/get",
+					"raw": "https://assignment-two-dan.herokuapp.com/get",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"get"
 					]
@@ -129,11 +133,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/get?var=random",
+					"raw": "https://assignment-two-dan.herokuapp.com/get?var=random",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"get"
 					],
@@ -189,11 +195,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/get",
+					"raw": "https://assignment-two-dan.herokuapp.com/get",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"get"
 					]
@@ -242,11 +250,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/post",
+					"raw": "https://assignment-two-dan.herokuapp.com/post",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"post"
 					]
@@ -295,11 +305,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/post?var=random",
+					"raw": "https://assignment-two-dan.herokuapp.com/post?var=random",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"post"
 					],
@@ -355,11 +367,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/post",
+					"raw": "https://assignment-two-dan.herokuapp.com/post",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"post"
 					]
@@ -408,11 +422,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/put",
+					"raw": "https://assignment-two-dan.herokuapp.com/put",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"put"
 					]
@@ -461,11 +477,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/put?var=random",
+					"raw": "https://assignment-two-dan.herokuapp.com/put?var=random",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"put"
 					],
@@ -521,11 +539,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/put",
+					"raw": "https://assignment-two-dan.herokuapp.com/put",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"put"
 					]
@@ -575,11 +595,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/delete",
+					"raw": "https://assignment-two-dan.herokuapp.com/delete",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"delete"
 					]
@@ -643,11 +665,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/delete",
+					"raw": "https://assignment-two-dan.herokuapp.com/delete",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"delete"
 					]
@@ -711,11 +735,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/delete?var=random",
+					"raw": "https://assignment-two-dan.herokuapp.com/delete?var=random",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"delete"
 					],
@@ -786,11 +812,13 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:1010/delete",
+					"raw": "https://assignment-two-dan.herokuapp.com/delete",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"assignment-two-dan",
+						"herokuapp",
+						"com"
 					],
-					"port": "1010",
 					"path": [
 						"delete"
 					]
