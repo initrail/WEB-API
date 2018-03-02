@@ -22,13 +22,13 @@ var param = 'This request has no query parameters'
 
 router.route('')
     .all(function (req, res) {
-        res.send(notSupported)
+        res.json({ error: notSupported })
     })
 
 router.route('/get')
     .all(function (req, res) {
         if (req.method != 'GET') {
-            res.send(notSupported)
+            res.json({ error : notSupported })
         } else {
             var local = param
             if (Object.keys(req.query).length !== 0)
@@ -40,7 +40,7 @@ router.route('/get')
 router.route('/post')
     .all(function (req, res) {
         if (req.method != 'POST') {
-            res.send(notSupported)
+            res.json({ error: notSupported })
         } else {
             var local = param
             if (Object.keys(req.query).length !== 0)
@@ -52,7 +52,7 @@ router.route('/post')
 router.route('/put')
     .all(function (req, res) {
         if (req.method != 'PUT') {
-            res.send(notSupported)
+            res.json({ error: notSupported })
         } else {
             var local = param
             if (Object.keys(req.query).length !== 0)
@@ -64,7 +64,7 @@ router.route('/put')
 router.route('/delete')
     .all(authController.isAuthenticated, function (req, res) {
         if (req.method != 'DELETE') {
-            res.send(notSupported)
+            res.json({ error: notSupported })
         } else {
             var local = param
             if (Object.keys(req.query).length !== 0)
